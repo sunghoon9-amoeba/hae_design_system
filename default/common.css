@@ -29,6 +29,15 @@ body {
   min-width: 320px;
 }
 
+.component-wrap.view {
+  padding: 0 50px;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .component-wrap>.row {
   display: -webkit-box;
   display: -ms-flexbox;
